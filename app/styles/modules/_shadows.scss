@@ -1,0 +1,30 @@
+
+$base-shadow: 10px;
+$base-shadow-color: rgb(60, 60, 60);
+$shadow--s: alpha-color(dark, high);
+$shadow--m: alpha-color(dark);
+$shadow--b: alpha-color(dark, low);
+
+.shadow--s {
+  box-shadow: $shadow--s 0px 3px $base-shadow;
+}
+
+.shadow--m {
+  box-shadow: $shadow--m 0px 3px ($base-shadow * 3);
+}
+
+.shadow--b {
+  box-shadow: $shadow--b 2px 2px ($base-shadow * 6);
+}
+
+.shadow--s--flat {
+  box-shadow: $base-shadow-color 0px 3px $base-shadow;
+}
+
+.shadow--m--flat {
+  box-shadow: $base-shadow-color 0px 3px ($base-shadow * 3);
+}
+
+.shadow--b--flat {
+  box-shadow: $base-shadow-color 2px 2px ($base-shadow * 6);
+}

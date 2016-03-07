@@ -1,0 +1,7 @@
+@function color($palette, $tone: 'base') {
+    @return map-get(map-get($color, $palette), $tone);
+}
+
+@function alpha-color($palette, $alpha: 'mid') {
+    @return map-get(map-get($alpha-color, $palette), $alpha);
+}

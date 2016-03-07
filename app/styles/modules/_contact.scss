@@ -1,0 +1,100 @@
+#main-contact {
+  padding: 2rem;
+  background-color: color(blue);
+}
+
+.contact__card {
+  background-color: white;
+  padding: 2rem;
+  position: relative;
+
+  @extend .shadow--s--flat;
+}
+
+.contact__card__fields {
+  position: absolute;
+  left: -7rem;
+
+  & > div {
+    background-color: color(blue);
+
+    @extend .shadow--s;
+  }
+
+  & > div:last-child {
+    margin: 1rem 0;
+  }
+}
+
+@media all and (max-width: $media-medium) {
+  .contact__card__fields {
+    position: static;
+  }
+}
+
+.contact__call-to-action {
+  color: white;
+  font-size: 1rem;
+}
+
+.contact__card__fields--name {
+
+}
+
+.contact__card__text-area {
+  margin: 0 10rem;
+  width: calc(100% - 10rem);
+  height: 20vh;
+  border: none;
+  outline: 0;
+  &::-webkit-input-placeholder {
+      color:    #999;
+  }
+  &:-moz-placeholder {
+      color:    #999;
+  }
+  &::-moz-placeholder {
+      color:    #999;
+  }
+  &:-ms-input-placeholder {
+      color:    #999;
+  }
+}
+
+@media all and (max-width: $media-medium) {
+  .contact__card__text-area {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.contact__card__send {
+  position: relative;
+  text-align: center;
+  top: 3rem;
+
+  button {
+    width: 200px;
+  }
+
+  button:hover input {
+    color: color(blue);
+  }
+
+  input {
+    border: none;
+    background-color: transparent;
+    color: white;
+
+    &:hover {
+      color: color(blue);
+    }
+  }
+}
+
+@media all and (max-width: $media-medium) {
+  .contact__card__send {
+    margin: 0;
+    width: 100%;
+  }
+}

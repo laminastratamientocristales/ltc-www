@@ -1,0 +1,29 @@
+.wrapper {
+  margin: 0 auto;
+  width: 1060px;
+}
+
+.container {
+  width: $media-large;
+  margin: 2rem auto;
+  padding: 3rem 0;
+  // border: 1px solid red;
+}
+
+[class*=row] {
+  // margin: 2rem 0;
+  // width: $media-large;
+  // margin: 0 auto;
+
+  // border: 1px solid green;
+}
+
+
+@media all and (max-width: $media-medium) {
+  .container {
+    margin: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+}

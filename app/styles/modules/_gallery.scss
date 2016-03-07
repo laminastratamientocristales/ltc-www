@@ -1,0 +1,127 @@
+.gallery {
+  @extend .shadow--m;
+}
+
+.gallery__title {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.gallery__container {
+  width: 100%;
+  // Overwrite margin and padding
+  padding: 0;
+  margin: 0 auto;
+}
+
+.gallery__carousel {
+  margin: $spacing-unit 0;
+  padding: $spacing-unit 0;
+  color: white;
+  background-color: color(blue, dark);
+
+  &:hover {
+    cursor: move;
+  }
+}
+
+.card__slide {
+  outline: 0;
+}
+
+.card {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+  padding: 1rem 0;
+}
+
+.card__container {
+  padding: $spacing-unit 0;
+  width: 50%;
+  position: relative;
+}
+
+.card__background--front {
+  outline: 0;
+  background-size: cover;
+  height: 400px;
+  background-color: white;
+
+  position: relative;
+  z-index: 2;
+}
+
+.card__background--front-1 { background-image: url("../images/fotos_obras/21.jpg") }
+.card__background--front-2 { background-image: url("../images/fotos_obras/5.JPG") }
+.card__background--front-3 { background-image: url("../images/fotos_obras/13.JPG") }
+.card__background--front-4 { background-image: url("../images/fotos_obras/30.jpg") }
+.card__background--front-5 { background-image: url("../images/fotos_obras/37.jpg") }
+// .card__background--front-6 { background-image: url("../images/fotos_obras/5.JPG") }
+// .card__background--front-7 { background-image: url("../images/fotos_obras/5.JPG") }
+// .card__background--front-8 { background-image: url("../images/fotos_obras/5.JPG") }
+
+.card__background--back {
+  height: 400px;
+  width: 100%;
+  top: 5px;
+  right: -35px;
+  background-color: color(blue, dark);
+  padding-left: 20px;
+
+  position: absolute;
+  z-index: 1;
+  color: white;
+
+  h1 {
+    font-size: 1rem;
+    margin: 0;
+  }
+}
+
+.card--title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  background-color: white;
+  padding: .3rem;
+
+  @extend .shadow--s;
+}
+
+.card--call-to-action {
+  background-color: color(dark);
+  color: white;
+  position: relative;
+  bottom: -94%;
+  width: 75px;
+  text-align: center;
+  margin: 0 auto;
+  padding: .4rem;
+
+  @extend .shadow--m;
+}
+
+.vertical-text {
+  float: right;
+  transform: rotate(90deg);
+  transform-origin: 60% 95%;
+}
+
+.slick-dots {
+  position: static;
+
+}
+
+.slick-dots li button:before {
+  font-size: 15px;
+}

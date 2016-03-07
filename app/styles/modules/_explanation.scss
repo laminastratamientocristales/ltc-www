@@ -1,0 +1,83 @@
+#explanation {
+    padding: $spacing-unit 0;
+    background-color: color(blue);
+    position: relative;
+    z-index: 1;
+    background-image: url("../images/explanation-hero.png");
+    background-size: cover;
+
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    justify-content: center;
+}
+
+.explanation__row {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+}
+
+.explanation__image {
+  padding-right: $spacing-unit;
+  img {
+    height: 200px;
+    width: 200px;
+    @extend .shadow--s--flat;
+  }
+}
+
+.explanation__text {
+  padding: 2rem 1rem;
+  background-color: color(dark);
+  color: white;
+  margin-left: -5rem;
+
+  @extend .shadow--s--flat;
+}
+
+.explanation__row:nth-child(even) {
+  .explanation__image {
+    order: 2;
+    padding-right: 0;
+  }
+
+  .explanation__text {
+    margin-left: 0;
+  }
+}
+
+@media all and (max-width: $media-medium) {
+  #explanation {
+    clear: both;
+  }
+
+ .explanation__row {
+   flex-direction: column;
+   margin: 2rem 0;
+
+   .explanation__text {
+     margin-left: 0;
+   }
+ }
+
+ .explanation__row:nth-child(even) {
+   .explanation__image {
+     order: 0;
+     padding-right: 0;
+   }
+
+   .explanation__text {
+     margin-left: 0;
+   }
+ }
+
+}
