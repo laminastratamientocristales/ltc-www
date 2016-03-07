@@ -1,0 +1,56 @@
+.training {
+
+}
+
+.training__card {
+  background-color: white;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+
+  flex-direction: row;
+
+  @extend .shadow--s--flat;
+}
+
+.training__card__img {
+  flex: 1;
+  height: 500px;
+  background-image: url("../images/black-and-white-city-man-people-large.jpg");
+  background-position: right;
+  background-size: cover;
+
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.training__card__button {
+  margin: 1rem;
+}
+
+.training__card__text {
+  padding: 2rem;
+  flex: 2;
+
+  @extend .shadow--m;
+}
+
+
+@media all and (max-width: $media-medium) {
+  .training__card {
+    flex-direction: column;
+  }
+
+  .training__card__img {
+    order: 2;
+  }
+}

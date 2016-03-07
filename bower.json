@@ -1,0 +1,16 @@
+{
+  "name": "ltc-www",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "skrollr": "~0.6.30",
+    "slick-carousel": "^1.5.9",
+    "modernizr": "^3.3.1",
+    "bourbon": "^4.2.6",
+    "magnific-popup": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~2.4.5"
+  }
+}

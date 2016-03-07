@@ -1,0 +1,35 @@
+// Main color
+$main-color: rgba(47, 162, 219, 1);
+$main-dark: rgba(51, 51, 53, 1);
+$main-accent: rgba(230, 171, 57, 1);
+
+$color: (
+  blue: (
+    light: lighten($main-color, 5%),
+    base: $main-color,
+    dark: darken($main-color, 10%)
+  ),
+  gold: (
+    light: lighten($main-accent, 5%),
+    base: $main-accent,
+    dark: darken($main-accent, 10%)
+  ),
+  dark: (
+    light: lighten($main-dark, 10%),
+    base: $main-dark,
+    dark: darken($main-dark, 10%)
+  )
+);
+
+$alpha-color: (
+  blue: (
+    low: rgba($main-color, 0.2),
+    mid: rgba($main-color, 0.5),
+    high: rgba($main-color, 0.8)
+  ),
+  dark: (
+    low: rgba($main-dark, 0.2),
+    mid: rgba($main-dark, 0.5),
+    high: rgba($main-dark, 0.8)
+  )
+);

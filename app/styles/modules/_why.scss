@@ -1,0 +1,50 @@
+.why {
+  padding: 2rem 1rem;
+  padding-top: 0;
+}
+
+.why__container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+
+.why__col {
+  flex: 1;
+
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+
+  justify-content: space-around;
+  text-align: center;
+}
+
+.why__card {
+  flex: 1;
+  margin: .5rem;
+  padding: 5rem 3rem;
+  background-color: white;
+
+  @extend .shadow--m;
+}
+
+.why__card h1 {
+  line-height: 1.2;
+}
+
+.why__card p {
+  text-align: left;
+}
+
+@media all and (max-width: $media-medium) {
+  .why__col, .why__container {
+    flex-direction: column;
+  }
+
+}
