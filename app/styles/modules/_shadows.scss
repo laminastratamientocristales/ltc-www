@@ -3,7 +3,7 @@ $base-shadow: 10px;
 $base-shadow-color: rgb(60, 60, 60);
 $shadow--s: alpha-color(dark, high);
 $shadow--m: alpha-color(dark);
-$shadow--b: alpha-color(dark, low);
+$shadow--b: rgba(56, 56, 56, .8);
 
 .shadow--s {
   box-shadow: $shadow--s 0px 3px $base-shadow;
