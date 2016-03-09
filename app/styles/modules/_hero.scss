@@ -1,11 +1,107 @@
 .hero {
-  background-color: rgb(88, 88, 88);
+  max-width: 100%;
+  margin: 0 auto;
+  background-image: url("../images/explanation-hero.png");
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-.hero__image {
-  background-image: url("../images/Hero-web.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+.hero__background {
   height: 100vh;
+}
+
+.hero__container {
+  padding: 0;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__container-front-card {
+  margin-top: auto;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+
+  flex-direction: row;
+  margin-top: 200px;
+  position: relative;
+  z-index: 2;
+  width: 90%;
   background-color: color(blue);
+
+  @extend .shadow--b;
+}
+
+.hero__container-front-card__logo {
+  background-color: white;
+  flex: 1;
+
+  position: relative;
+  top: -70px;
+  left: -70px;
+
+  @extend .shadow--b;
+
+  & img {
+    height: 200px;
+  }
+}
+
+.hero__container-front-card__text {
+  flex: 2;
+
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  padding-right: 2rem;
+
+  color: white;
+}
+
+.hero__container-back-card {
+  display: block;
+  position: relative;
+  top: -250px;
+  left: -50px;
+  z-index: 0;
+  background-color: color(blue);
+  width: calc(100% - 100px);
+  height: 200px;
+
+  @extend .shadow--b;
+}
+
+@media all and (max-width: $media-medium) {
+  .hero__container-front-card {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .hero__container-front-card__logo {
+    position: static;
+    text-align: center;
+  }
+
+  .hero__container-front-card__text {
+    padding: 1rem;
+  }
+
+  .hero__container-back-card {
+    display: none;
+  }
 }
