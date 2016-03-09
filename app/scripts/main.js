@@ -1,12 +1,4 @@
 $(document).ready(function() {
-
-  // initialize skrollr if the window width is large enough
-  if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
-      skrollr.init({
-          forceHeight: false
-      });
-  }
-
   if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     var h = $('.height-fix').height();
     $('.height-fix').height(h);
