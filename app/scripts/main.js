@@ -34,31 +34,31 @@ $(document).ready(function() {
   $('#open-popup-1').magnificPopup({
     items: [
       {
-        src: 'images/fotos_obras/1.JPG',
+        src: 'images/1.JPG',
         title: 'LTC | Láminas en edificios'
       },
       {
-        src: 'images/fotos_obras/2.JPG',
+        src: 'images/2.JPG',
         title: 'LTC | Láminas en edificios'
       },
       {
-        src: 'images/fotos_obras/3.jpg',
+        src: 'images/3.jpg',
         title: 'LTC | Láminas en edificios'
       },
       {
-        src: 'images/fotos_obras/4.jpg',
+        src: 'images/4.jpg',
         title: 'LTC | Láminas en edificios'
       },
       {
-        src: 'images/fotos_obras/2.JPG',
+        src: 'images/2.JPG',
         title: 'LTC | Láminas en edificios'
       },
       {
-        src: 'images/fotos_obras/19.JPG',
+        src: 'images/19.JPG',
         title: 'LTC | Láminas en edificios'
       },
       {
-        src: 'images/fotos_obras/26.jpg',
+        src: 'images/26.jpg',
         title: 'LTC | Láminas en edificios'
       }
     ],
@@ -78,10 +78,10 @@ $(document).ready(function() {
   $('#open-popup-2').magnificPopup({
     items: [
       {
-        src: 'images/fotos_obras/8.JPG',
+        src: 'images/8.JPG',
         title: 'LTC | Láminas en coches policía'
       },{
-        src: 'images/fotos_obras/5.JPG',
+        src: 'images/5.JPG',
         title: 'LTC | Láminas en coches policía'
       }
     ],
@@ -101,19 +101,19 @@ $(document).ready(function() {
   $('#open-popup-3').magnificPopup({
     items: [
       {
-        src: 'images/fotos_obras/13.JPG',
+        src: 'images/13.JPG',
         title: 'LTC | Láminas en gimnasios'
       },
       {
-        src: 'images/fotos_obras/14.JPG',
+        src: 'images/14.JPG',
         title: 'LTC | Láminas en gimnasios'
       },
       {
-        src: 'images/fotos_obras/17.JPG',
+        src: 'images/17.JPG',
         title: 'LTC | Láminas en gimnasios'
       },
       {
-        src: 'images/fotos_obras/18.JPG',
+        src: 'images/18.JPG',
         title: 'LTC | Láminas en gimnasios'
       }
     ],
@@ -133,19 +133,19 @@ $(document).ready(function() {
   $('#open-popup-4').magnificPopup({
     items: [
       {
-        src: 'images/fotos_obras/30.jpg',
+        src: 'images/30.jpg',
         title: 'LTC | Láminas en oficinas'
       },
       {
-        src: 'images/fotos_obras/31.jpg',
+        src: 'images/31.jpg',
         title: 'LTC | Láminas en oficinas'
       },
       {
-        src: 'images/fotos_obras/32.jpg',
+        src: 'images/32.jpg',
         title: 'LTC | Láminas en oficinas'
       },
       {
-        src: 'images/fotos_obras/34.jpg',
+        src: 'images/34.jpg',
         title: 'LTC | Láminas en oficinas'
       }
     ],
@@ -165,23 +165,23 @@ $(document).ready(function() {
   $('#open-popup-5').magnificPopup({
     items: [
       {
-        src: 'images/fotos_obras/37.jpg',
+        src: 'images/37.jpg',
         title: 'LTC | Obras con andamios'
       },
       {
-        src: 'images/fotos_obras/38.jpg',
+        src: 'images/38.jpg',
         title: 'LTC | Obras con andamios'
       },
       {
-        src: 'images/fotos_obras/36.jpg',
+        src: 'images/36.jpg',
         title: 'LTC | Obras con andamios'
       },
       {
-        src: 'images/fotos_obras/39.jpg',
+        src: 'images/39.jpg',
         title: 'LTC | Obras con andamios'
       },
       {
-        src: 'images/fotos_obras/41.jpg',
+        src: 'images/41.jpg',
         title: 'LTC | Obras con andamios'
       }
     ],
