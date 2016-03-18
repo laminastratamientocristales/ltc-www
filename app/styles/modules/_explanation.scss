@@ -3,7 +3,6 @@
 }
 
 .explanation__hero {
-<<<<<<< HEAD
   background-color: color(blue, dark);
   height: 100vh;
   width: 100%;
@@ -13,7 +12,6 @@
   z-index: 0;
   background-size: cover;
 }
-<<<<<<< HEAD
 
 .explanation__container--pre {
   position: absolute;
@@ -29,24 +27,6 @@
   display: -o-flex;
   display: flex;
 
-=======
-
-.explanation__container--pre {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  width: 100%;
-}
-
-.explanation__container {
-
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-
->>>>>>> 08b42c245a1dfcb7f99a333cdb05a72d172eae85
   flex-direction: column;
   justify-content: center;
   align-items: center;
